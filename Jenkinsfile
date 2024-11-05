@@ -18,7 +18,7 @@ pipeline {
         stage('Compilar Proyecto') {
             steps {
                 // Compila el proyecto Maven para generar el archivo JAR
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
 
